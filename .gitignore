@@ -1,15 +1,38 @@
+# Node modules
 /node_modules
+
+# Public assets
 /public/hot
 /public/storage
+
+# Laravel specific
 /storage/*.key
 /vendor
+
+# Environment files
 .env
 .env.backup
+
+# PHPUnit cache
 .phpunit.result.cache
+
+# Docker and Homestead
 docker-compose.override.yml
 Homestead.json
 Homestead.yaml
+
+# Logs
 npm-debug.log
 yarn-error.log
+
+# IDE and Editor config
 /.idea
 /.vscode
+.editorconfig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
