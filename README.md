@@ -1,46 +1,66 @@
-# Nyne
+<div align="center">  
+    <img src="/public/images/logo.png" align="center" width="25%" alt="Nyne Logo">
+</div>
 
-Nyne is a web-based application inspired by hihello.me, designed to provide a user-friendly experience with a robust backend. It allows you to store all your information in one place in the form of cards - both personal and business. The project encompasses a client-side and admin-side, each serving specific purposes.
+Nyne is a web application inspired by hihello.me, designed to provide a user-friendly experience with a robust backend. It allows you to store all your information in one place in the form of cards - both personal and business. The project encompasses a client-side and admin-side, each serving specific purposes.
 
 ## Technologies Used
 
-- **Frontend:**
+### Frontend:
   - HTML
-  - Blade (Laravel templating engine)
+  - Blade
   - CSS
   - JavaScript
 
-- **Backend:**
+### Backend:
   - PHP
   - Laravel framework
   - MySQL database
+  - WAMP server
 
 ## Features
 
 ### Client Side
 
-#### User Account Management
-- Users can create accounts to manage personal and business cards.
-- Information editing and sharing capabilities using QR codes.
+- **User Account Management**
+    - create accounts to manage personal and business cards
+    - update and share information through QR Codes
 
-#### QR Code Generation
-- Each card has a unique QR code, allowing easy sharing and retrieval of card information by scanning.
+- **QR Code Generation**
+    - generates unique QR code for each card, allowing easy sharing and scanning
 
-#### Asynchronous Server Calls
-- Utilizes the Fetch API for asynchronous server calls, enhancing performance and user experience.
+- **Asynchronous Server Calls**
+    - utilizes Fetch API for asynchronous server calls
 
 ### Admin Side
 
-#### Customer Management
-- Admins can view all customers and their respective cards.
-- Search functionality enables admins to find customers by name, email, company, or role.
+- **Customer Management**
 
-#### User-Friendly Interface
-- A visually appealing and cohesive theme enhances the overall user interface.
+    - view all customers and their respective cards
+    - find customers by name, email, company, or role
+ 
+### User-Friendly Interface
 
-## Server Environment
+- visually appealing and cohesive theme to enhance overall UI
 
-- WAMP server is used for building and hosting the website.
+## Installation
+
+- Clone the repository
+  ```
+  https://github.com/mominaamjad/nyne-digital-cards.git
+  ```
+- Have `PHP` installed locally
+  
+- Have `composer` installed locally
+  
+- Install dependencies
+  ```
+  composer install
+  ```
+- Run
+  ```
+  php artisan serve
+  ```
 
 ## Contributing
 
@@ -48,4 +68,4 @@ Contributions are welcome! If you have ideas for improvements, bug fixes, or new
 
 ## Acknowledgements
 
-* this was developed for web technologies course with my group mate: Haneen Ehsan
+This project is a combined effort of me and my group mate Haneen Ehsan, for Web Technologies Course.
