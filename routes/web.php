@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('main_page');
 });
 
+Route::get('/main_page', function () {
+    return view('main_page');
+});
+
 Route::get('dbc', function () {
     return view('dbc');
 });
