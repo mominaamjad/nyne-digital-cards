@@ -52,7 +52,7 @@ class UserController extends Controller
             $location= $user->location;
             $useremail = $user->email;
             $phone= $user_personal->phone;
-            return view('personal_Card')
+            return view('personal_card')
             ->with('username', $username)
             ->with('email', $useremail)
             ->with('location', $location)
