@@ -57,6 +57,11 @@ Nyne is a web application inspired by hihello.me, designed to provide a user-fri
   ```
   composer install
   ```
+- Copy `.env.example` to `.env` and set variables
+- Run
+  ```
+  php arstisan key:generate
+  ```
 - Run
   ```
   php artisan serve
